@@ -1,0 +1,10 @@
+# 生成されたプラグイン（plugins/ 配下）は個人環境のため除外
+plugins/
+
+# ビルド成果物
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user

@@ -74,7 +74,8 @@ New-Item -ItemType Directory -Path $OutDir | Out-Null
 # ----- テンプレートファイルをコピー -----
 $templateFiles = @("App.cs", "Command.cs", "PluginLogic.cs", "PluginUI.cs",
                    "PluginName.csproj", "PluginName.addin",
-                   "build_and_deploy.ps1", "build_and_deploy.bat")
+                   "build_and_deploy.ps1", "build_and_deploy.bat",
+                   "uninstall.ps1", "uninstall.bat")
 
 foreach ($file in $templateFiles) {
     $src = Join-Path $TemplateDir $file
