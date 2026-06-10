@@ -222,8 +222,23 @@ public class MainWindow : System.Windows.Window
 
 以下をすべて出力してください：
 
-### ① PluginLogic.cs（完全なコード）
-### ② PluginUI.cs（完全なコード）
+### ① new-plugin.bat の入力パラメータ
+
+コード生成の前に、開発者が `new-plugin.bat` に入力する値を以下のフォーマットでまとめて出力してください。
+
+```
+【new-plugin.bat 入力パラメータ】
+
+  プラグイン名        : （例: WallColorizer）
+  Revitバージョン     : （例: 2024）
+  タブ名              : （例: MyPlugins）
+  パネル名            : （例: 壁ツール）
+  ボタンラベル        : （例: 壁\n色付け）
+  ツールチップ        : （例: 選択した壁に色を付けます。）
+```
+
+### ② PluginLogic.cs（完全なコード）
+### ③ PluginUI.cs（完全なコード）
 
 出力後、以下のデプロイ手順を開発者に伝えてください：
 
@@ -231,6 +246,7 @@ public class MainWindow : System.Windows.Window
 【デプロイ手順】
 
 1. new-plugin.bat をダブルクリックして plugins/<PluginName>/ フォルダを作成する
+   ※ 上記「new-plugin.bat 入力パラメータ」の値をそのまま入力してください
 
 2. 生成された PluginLogic.cs と PluginUI.cs を
    plugins/<PluginName>/ フォルダに上書き保存する
