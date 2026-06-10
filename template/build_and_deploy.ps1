@@ -1,4 +1,4 @@
-# build_and_deploy.ps1
+﻿# build_and_deploy.ps1
 # このスクリプトはプラグインフォルダ内で実行してください。
 # ビルドしてRevitのAddinsフォルダにコピーします。
 

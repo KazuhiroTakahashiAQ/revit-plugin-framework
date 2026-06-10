@@ -1,4 +1,4 @@
-# new-plugin.ps1
+﻿# new-plugin.ps1
 # revit-plugin-framework のルートフォルダで実行してください。
 # 対話式で設定を入力すると plugins/<PluginName>/ にプラグインを生成します。
 
