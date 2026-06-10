@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>PluginName</Name>
+    <Assembly>PluginName.dll</Assembly>
+    <FullClassName>PluginName.App</FullClassName>
+    <ClientId>REPLACE-WITH-NEW-GUID</ClientId>
+    <VendorId>YourCompany</VendorId>
+    <VendorDescription>Your Company</VendorDescription>
+  </AddIn>
+</RevitAddIns>
